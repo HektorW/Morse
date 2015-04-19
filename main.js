@@ -207,7 +207,7 @@ morseplay['-'] = function(){
 
 vibrate = {};
 vibrate.vibrate = function(message){
-  $('body').append('<p>vibrate');
+  // $('body').append('<p>vibrate');
   var v = {
     ' ': 3*t,
     '.': t,
@@ -224,8 +224,8 @@ vibrate.vibrate = function(message){
     }
   }
 
-  $('body').append('<p>'+message);
-  $('body').append('<p>'+q);
+  // $('body').append('<p>'+message);
+  // $('body').append('<p>'+q);
   
   navigator.vibrate(q);
 };
